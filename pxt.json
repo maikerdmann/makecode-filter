@@ -5,7 +5,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "test": "github:maikerdmann/state_machine#master"
     },
     "files": [
         "main.blocks",

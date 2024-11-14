@@ -15,7 +15,7 @@ namespace Ultraschall_advanced {
      * stop Advanced
      */
     //% blockId=stopAdvanced
-    //% block="stop_advanced"
+    //% block="stop_ultraschall_advanced"
     export function stop_advanced(): void {
         ultraschall_obj.active = false
     }
@@ -24,7 +24,7 @@ namespace Ultraschall_advanced {
      * Start Ultraschall advanced
      */
     //% blockId=initAdvanced
-    //% block="init_advanced"
+    //% block="init_utraschall_advanced"
     export function init_advanced(): void {
         ultraschall_obj = new Ultraschallsensor(0.64375)
     }
